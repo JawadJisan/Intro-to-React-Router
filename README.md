@@ -1,16 +1,40 @@
-# React + Vite
+# 🚀 React Router Class Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **learning-based React application** built using modern tools like **React Router (Data Mode)**, **Vite**, **Tailwind CSS**, and **React Icons**. It demonstrates routing, layouts, dashboard UI, and reusable components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📚 Resources Used
 
-## React Compiler
+### ⚡ React Router (Data Mode + Routing)
+- https://dev.to/kevinccbsg/react-router-data-mode-part-1-installation-and-first-routes-3c40  
+- https://github.com/JawadJisan/Intro-to-React-Router  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 Learn about:
+- Creating routes using `createBrowserRouter`
+- Nested routes with `Outlet`
+- Layout-based routing (Dashboard layout)
+- Handling `NavLink` active states
+- 404 Not Found routes
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 Tailwind CSS (Vite Setup)
+- https://v3.tailwindcss.com/docs/guides/vite  
+
+👉 Learn about:
+- Installing Tailwind in Vite projects
+- Configuring `tailwind.config.js`
+- Using utility-first CSS classes
+- Responsive UI design
+- Building modern layouts quickly
+
+---
+
+### 🎯 React Icons
+- https://www.npmjs.com/package/react-icons  
+
+👉 Learn about:
+- Installing React Icons:
+  ```bash
+  npm install react-icons

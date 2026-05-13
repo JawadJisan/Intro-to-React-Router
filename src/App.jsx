@@ -13,7 +13,6 @@ const App = () => {
 
   return (
     <div>
-      <Header />
       <h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis
         praesentium inventore possimus tenetur quam asperiores non. Rem nihil

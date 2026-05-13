@@ -1,11 +1,13 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Header = () => {
   return (
     <header className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-2xl font-bold text-blue-600">DevSite</div>
+        <Link to="/" className="text-2xl font-bold text-blue-600">
+          DevSite
+        </Link>
 
         {/* Navigation */}
         <nav>
@@ -68,9 +70,11 @@ const Header = () => {
         </nav>
 
         {/* Button */}
-        <button className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-200">
-          Login
-        </button>
+        <Link to="/dashboard">
+          <button className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-200">
+            Dashboard
+          </button>
+        </Link>
       </div>
     </header>
   );
